@@ -14,19 +14,12 @@ const rootReducer = combineReducers({
 });
 
 var config = {
-    // apiKey: "AIzaSyDTm5kSJVmVQsaSKg1TMfnjyX2AYnG6KVQ",
-    // authDomain: "mywebchat1512350.firebaseapp.com",
-    // databaseURL: "https://mywebchat1512350.firebaseio.com",
-    // projectId: "mywebchat1512350",
-    // storageBucket: "mywebchat1512350.appspot.com",
-    // messagingSenderId: "73844307258"
-    apiKey: "AIzaSyDA4gPpLg6LoDkI_UtRcU4lksjuL6dI7f8",
-    authDomain: "app-chat-v01.firebaseapp.com",
-    databaseURL: "https://app-chat-v01.firebaseio.com",
-    projectId: "app-chat-v01",
-    storageBucket: "app-chat-v01.appspot.com",
-    messagingSenderId: "669411419047"
-  };
+     apiKey: "AIzaSyDTm5kSJVmVQsaSKg1TMfnjyX2AYnG6KVQ",
+     authDomain: "mywebchat1512350.firebaseapp.com",
+     databaseURL: "https://mywebchat1512350.firebaseio.com",
+     projectId: "mywebchat1512350",
+     storageBucket: "mywebchat1512350.appspot.com",
+     messagingSenderId: "73844307258"  };
 firebase.initializeApp(config)
 
 const rrfConfig = { 
